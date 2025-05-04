@@ -24,5 +24,5 @@ avgfile() {
 
 }
 
-avgfile /home/docz
+avgfile /home/docz/
 
