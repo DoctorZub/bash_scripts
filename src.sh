@@ -16,5 +16,3 @@ elif [[ $NC == *succee* && -s $STATUS_FILE ]]; then
 	echo " $(date '+%b %d %T') port_check IP $IP Port $PORT is available again" >> $LOG_FILE
 	echo -n > $STATUS_FILE
 fi
-
-echo done
