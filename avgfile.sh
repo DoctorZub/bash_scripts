@@ -12,10 +12,8 @@ avgfile() {
 				fi
 			done
 			if [[ $q -eq 0 ]];then
-				echo fuck_zero
+				echo 0
 			else
-			echo $SUM
-			echo $q
 			echo $((SUM/q))
 			fi
 		else
@@ -23,6 +21,4 @@ avgfile() {
 		fi
 
 }
-
-avgfile /home/docz
 
